@@ -19,7 +19,7 @@ class ApplicationRejectedEvent(Event):
         super().__init__(payload)
         print(f"Event: Application rejected for {payload['student']}.")
 
-# University and Student classes
+# University and Student classe
 class University:
     def __init__(self, name):
         self.name = name
